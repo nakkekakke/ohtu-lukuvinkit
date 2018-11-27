@@ -61,8 +61,13 @@ public class Controllers {
 
     @PostMapping("/comment")
     public String createComment(@RequestParam Integer readingTipId,
-            @ModelAttribute Comment comment) throws SQLException {
+            @Valid @ModelAttribute Comment comment, BindingResult bindingResultComment) throws SQLException {
+        if (bindingResultComment.hasErrors()) {
+            return "index";
+        }
+
         service.saveNewComment(comment, readingTipId);
+
         return "redirect:/";
     }
 

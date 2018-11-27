@@ -47,8 +47,9 @@
                         <div class="newcomment">
                             <form th:action="@{/comment}" th:object="${comment}" method="POST">
                                 <input type="hidden" name="readingTipId" th:value="${listingUnit.readingTip.id}" />
+                                <span class="error" th:if="${#fields.hasErrors('commentDescription')}" th:errors="*{commentDescription}"></span>
                                 <label for="comment">Add a new comment:</label>
-                                <input type="text" name="commentDescription" placeholder="Type your new comment here..." />
+                                <input type="text" th:field="*{commentDescription}" name="commentDescription" placeholder="Type your new comment here..." />
                                 <input name="create-comment" type="submit" />
                             </form>
                         </div>
