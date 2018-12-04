@@ -6,7 +6,7 @@
 
 **Reading tips is a web app that at its core lets the user save down reading tips, their descriptions and links to them. Other features include tagging, adding comments and keeping track of what you've already read.**
 
-### WIP features (should be ready after Sprint 3)
+### New features in Sprint 3
 * Add a type for a reading tip: a book, a website or an article
 * Add more info for a reading tip: ISBN for a book, author for an article
 
@@ -25,6 +25,7 @@ To run the app locally:
 * [Heroku](https://lukuvinkit.herokuapp.com/)
 * [Test coverage report](https://htmlpreview.github.io/?https://github.com/luupanu/ohtu-lukuvinkit/blob/master/jacococoverage/test/html/index.html)
 * [Product Backlog](https://docs.google.com/spreadsheets/d/10v1C_SqCL5R2vVQS019tSk6TDwTYgx2USbZ7cdNQoRU)
+* [Documentation](https://docs.google.com/document/d/1O4CmI0dEY2C_Ug7-gUTDmSD48oMHeIVG8lrNBHUmthI/edit#heading=h.phuhau3ounpw)
 * [Sprint 1 Backlog](https://docs.google.com/spreadsheets/d/10v1C_SqCL5R2vVQS019tSk6TDwTYgx2USbZ7cdNQoRU/edit#gid=0)
 * [Sprint 2 Backlog](https://docs.google.com/spreadsheets/d/10v1C_SqCL5R2vVQS019tSk6TDwTYgx2USbZ7cdNQoRU/edit#gid=1294251749)
 * [Sprint 3 Backlog](https://docs.google.com/spreadsheets/d/10v1C_SqCL5R2vVQS019tSk6TDwTYgx2USbZ7cdNQoRU/edit#gid=774886918)
